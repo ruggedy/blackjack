@@ -1,0 +1,30 @@
+.app-container {
+    display: flex;
+    height: 100vh;
+
+    .board-container {
+        display: flex;
+        flex: 3;
+        flex-direction: column;
+
+        .side {
+            flex: 1;
+            display: flex;
+            flex-wrap: wrap;
+            border-bottom: 1px solid black;
+            justify-content: space-around;
+            padding: 10px;
+
+            .deck {
+                display: flex;
+                position: relative;
+                padding: 5px;
+                border: 1px solid transparent;
+
+                &.currently-selected {
+                    border-color: green    
+                }
+            }
+        }
+    }
+}

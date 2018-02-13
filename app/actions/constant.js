@@ -1,0 +1,18 @@
+export const  START_GAME_INIT = "START_GAME_INIT";
+export const  START_GAME_COMPLETE = "START_GAME_COMPLETE";
+export const  HIT_INIT = "HIT_INIT";
+export const  HIT_COMPLETE = "HIT_COMPLETE";
+export const  SPLIT_INIT = "SPLIT_INIT";
+export const  SPLIT_COMPLETE = "SPLIT_COMPLETE";
+// export const  DOUBLE_DOWN_INIT = "DOUBLE_DOWN_INIT";
+// export const  DOUBLE_DOWN_COMPLETE = "DOUBLE_DOWN_COMPLETE";
+export const  STACK_INIT = "STACK_INIT";
+export const  STACK_COMPLETE = "STACK_COMPLETE";
+
+export const DEALER_DRAW_INIT = "DEALER_DRAW_INIT" 
+export const DEALER_DRAW_COMPLETE = "DEALER_DRAW_COMPLETE" 
+
+
+
+export const PLAYER = "PLAYER";
+export const DEALER = "DEALER";

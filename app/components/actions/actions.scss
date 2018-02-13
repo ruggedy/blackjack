@@ -1,0 +1,21 @@
+.actions-item {
+    height: 100px;
+    width: 80%;
+    border: 1px solid black;
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    font-size: 16px;
+    cursor: pointer;
+
+    &:last-of-type {
+        margin-bottom: 0px;
+    }
+
+    &.disabled {
+        background-color: grey;
+        cursor: not-allowed;
+    }
+}
