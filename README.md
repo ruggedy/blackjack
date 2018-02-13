@@ -1,4 +1,4 @@
-# RSSFEED APP
+# BlackJack APP
 
 ## Starting the dev server
 
@@ -14,14 +14,14 @@ This app focuses on Application flow and project structure as opposed to design.
 
 
 ## Current Features
-Players can Hit,
-Players can split their deck if they have only 2 cards to create a new deck
-players can stick(typo as "stack" in app)
-players can restart the game.
+- Players can Hit
+- Players can split their deck if they have only 2 cards to create a new deck
+- players can stick(typo as "stack" in app)
+- players can restart the game.
 
 ## WIP
-introduce betting chips based on user plays.
-improve dealer AI.
-introduce Double down.
-introduce rule to only allow deck split on pairs as well as deck size limit
+- introduce betting chips based on user plays.
+- improve dealer AI.
+- introduce Double down.
+- introduce rule to only allow deck split on pairs as well as deck size limit
 
